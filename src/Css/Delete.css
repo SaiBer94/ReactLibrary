@@ -1,0 +1,72 @@
+
+.Container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Form styling */
+  .userDelContainer,
+  .bookDelContainer {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .userDelContainer h2,
+  .bookDelContainer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .userDelContainer label,
+  .bookDelContainer label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .userDelContainer input,
+  .bookDelContainer input,
+  .userDelContainer button,
+  .bookDelContainer button {
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .userDelContainer button,
+  .bookDelContainer button {
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .userDelContainer button:hover,
+  .bookDelContainer button:hover {
+    background-color: #c82333;
+  }
+  
+  .userDelContainer input[type="text"],
+  .bookDelContainer input[type="text"] {
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 0;
+    border-top: 1px solid #eee;
+    
+  }
+  

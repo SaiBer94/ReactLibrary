@@ -1,0 +1,90 @@
+
+.Container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Search section styling */
+  .searchContainer {
+    margin-bottom: 20px;
+  }
+  
+  .searchContainer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .searchContainer input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+  }
+  
+  .searchContainer button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .searchContainer button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* User card styling */
+  .userCard {
+    width: calc(20% - 20px); /* 20% width for each card with margin */
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .userCard h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .userCard p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  @media (max-width: 1200px) {
+    .userCard {
+      width: calc(25% - 20px); /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .userCard {
+      width: calc(33.33% - 20px); /* Adjust for medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .userCard {
+      width: calc(50% - 20px); /* Adjust for small screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .userCard {
+      width: 100%; /* Full width on extra small screens */
+    }
+  }
+  

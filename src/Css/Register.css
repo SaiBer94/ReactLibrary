@@ -1,0 +1,74 @@
+/* Assuming you have a common CSS file where styles are defined */
+/* You can adjust these styles as per your design preferences */
+
+/* Container styling */
+.Container {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Form styling */
+  .userRegister,
+  .bookRegister {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .userRegister h2,
+  .bookRegister h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .userRegister label,
+  .bookRegister label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .userRegister input,
+  .bookRegister input,
+  .userRegister button,
+  .bookRegister button {
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .userRegister button,
+  .bookRegister button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .userRegister button:hover,
+  .bookRegister button:hover {
+    background-color: #0056b3;
+  }
+  
+  .userRegister input[type="text"],
+  .bookRegister input[type="text"] {
+    font-size: 1rem;
+  }
+  
+  hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 0;
+    border-top: 1px solid #eee;
+    text-align: center;
+  }
+  
